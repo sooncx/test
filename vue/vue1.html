@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+<div id="app">
+ <input v-model="str" placeholder="请输入要添加的内容" />
+  <button @click='push'>添加</button>
+  <ul>
+    <li  v-for='(list,index) in lists'> <!-- index为当前数组中对应数据的索引值 -->
+      {{list.msg}}  <button v-on:click='lists.splice(index, 1)'>删除</button><!-- splice(index,num) index为删除数据的位置，num为删除数据的条数-->
+    </li>
+  </ul>
+</div>
+</body>
+</html>
+<script src="js/vue.js"></script>
+<script>
+var vm = new Vue({
+  el: '#app',
+  data: {
+  str:'',
+    lists:[
+      {id:1,msg:'这是一条评论'},
+      {id:2,msg:'这是一条有意思评论'},
+      {id:3,msg:'这是一条有味道评论'},
+    ],
+    ID: 4
+  },
+  methods:{
+    push(){
+      this.lists.push({
+        id:this.ID++,
+        msg:this.str
+      })
+      this.str=''
+    }
+  }
+})
+
+</script>
