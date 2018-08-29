@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.box{
+		position: relative;
+		transition: all 0.5s;
+		left: -80px;
+		width: 100px;
+	}
+		.box1{
+			width: 100px;
+			height: 30px;
+			background-color: #05BA89;
+			margin-top: 100px;
+		}
+		.show{
+			left: 0px;
+		}
+		.box2,.box3{
+			height: 30px;
+			width: 30px;
+			background-color: #fff;
+			transform: rotate(45deg);
+		}
+		.box2{
+			position: absolute;
+			top: -15px;
+			left: 85px;
+		}
+		.box3{
+			position: absolute;
+			top: 15px;
+			left: 85px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+	</div>
+	
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script>
+	$('.box').mouseenter(function(event) {
+		$('.box').addClass('show');
+	});
+	$('.box').mouseleave(function(event) {
+		$('.box').removeClass('show');
+	});
+</script>

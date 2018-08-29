@@ -2,20 +2,26 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
-}body{
+}
+
+body{
 	background-color: #F5F5F5;
+		overflow-x: hidden;
+}
+header{
+	background-color: #242424;
 }
 nav{
 	height: 70px;
-	background-color: #242424;
-	width: 100%;
 	position: relative;
+	margin: 0 auto;
+	width: 1100px;
 }
 h1{
 	background: url('../images/topbar.png');
 	height: 70px;
 	width: 157px;
-	margin-left: 170px;
+	margin-left: 0px;
 	cursor: pointer;
 }
 nav ul{
@@ -23,7 +29,7 @@ nav ul{
 	width: 800px;
 	position: absolute;
 	top: 0px;
-	left: 350px;
+	left: 180px;
 }
 nav ul span{
 	margin: 0 20px;
@@ -58,10 +64,11 @@ nav ul li:hover{
 	position: absolute;
 	background-color: #fff;
 	top: 19px;
-	left: 970px;
+	left: 800px;
 	border-radius: 100px;
 }
 .bar_search .search_pic{
+	display: inline-block;
 	background: url('../images/topbar.png') no-repeat -7px -105px;
 	width: 20px;
 	height: 20px;
@@ -82,7 +89,7 @@ nav ul li:hover{
 	position: absolute;
 	background: url('../images/topbar.png') no-repeat 6px -140px;
 	top: 19px;
-	left: 1150px;
+	left: 960px;
 	border-radius: 100px;
 }
 .bar_vedio:hover{
@@ -95,12 +102,12 @@ nav ul li:hover{
 	margin-left: 35px;
 }
 .bar_login{
-	width: 100px;
+	width: 32px;
 	height: 32px;
 	position: absolute;
 	color: #747474;
 	top: 19px;
-	left: 1270px;
+	left: 1080px;
 	line-height: 32px;
 	cursor: pointer;
 }
@@ -116,19 +123,19 @@ nav ul li:hover{
 	color: #8F8F8F;
 	text-decoration: underline;
 }
-.login_list{
-	
-}
+/* .login_list{
+	position: relative;
+} */
 .login_list ul{
 	position: absolute;
-	background-color: #2B2B2B;
-	width: 160px;
-	height: 194px;
-	top: 58px;
-	margin-left: 1210px;
-	border-radius: 3px;
-	z-index: 9999;
-	box-sizing: border-box;
+    background-color: #2B2B2B;
+    width: 160px;
+    height: 194px;
+    top: 38px;
+    margin-left: -243px;
+    border-radius: 3px;
+    z-index: 9999;
+    box-sizing: border-box;
 }
 .login_list li{
 	width: 160px;
@@ -146,19 +153,19 @@ nav ul li:hover{
 
 .login_list .list0{
 	width: 18px;
-	height: 18px;
-	background: url('../images/toplist.png') no-repeat -18px 0px;
-	position: absolute;
-	top: 50px;
-	left: 1278px;
+    height: 18px;
+    background: url(../images/toplist.png) no-repeat -18px 0px;
+    position: absolute;
+    top: 30px;
+    left: -28px;
 }
 .login_list .list1{
 	width: 18px;
 	height: 18px;
 	background: url('../images/toplist.png') no-repeat 0px 0px;
 	position: absolute;
-	top: 11px;
-	left: 15px;
+	top: 10px;
+	left: -15px;
 }
 
 .login_list .list2{
@@ -167,7 +174,7 @@ nav ul li:hover{
 	background: url('../images/toplist.png') no-repeat -20px -18px;
 	position: absolute;
 	top: 47px;
-	left: 15px;
+	left: -15px;
 }
 .login_list .list3{
 	width: 18px;
@@ -175,7 +182,7 @@ nav ul li:hover{
 	background: url('../images/toplist.png') no-repeat -20px -36px;
 	position: absolute;
 	top: 85px;
-	left: 15px;
+	left: -15px;
 }
 .login_list .list4{
 	width: 18px;
@@ -183,7 +190,7 @@ nav ul li:hover{
 	background: url('../images/toplist.png') no-repeat 0px -18px;
 	position: absolute;
 	top: 123px;
-	left: 15px;
+	left: -15px;
 }
 .login_list .list5{
 	width: 18px;
@@ -191,28 +198,32 @@ nav ul li:hover{
 	background: url('../images/toplist.png') no-repeat 0px -36px;
 	position: absolute;
 	top: 163px;
-	left: 15px;
+	left: -15px;
 	border: 0px solid red;
 }
 .login_list p{
-	margin-left: 40px;
+	float: left;
+	margin-left: 50px;
 	font-size: 12px;
 	line-height: 37px;
 	color: #7F7F7F;
 }
-.bar2{
+.redbar{
 	height: 40px;
-	width: 100%;
 	background-color: #C00014;
+}
+.bar2{
 	position: relative;
 	top: 0px;
+	margin: 0 auto;
+	width: 1100px;
 }
 .bar2 ul{
 	height: 40px;
 	width: 800px;
 	float: left;
 	position: absolute;
-	margin-left: 350px;
+	margin-left: 180px;
 }
 .bar2 ul li{
 	float: left;
@@ -238,14 +249,16 @@ nav ul li:hover{
 	height: 10px;
 	background: url('../images/topbar.png') no-repeat -213px -138px;
 	top:-10px;
-	left: 395px
+	left: 224px;
+}
+.bar2 li:nth-of-type(1){
+	background-color: #A50A0A;
 }
 section{
 	height: 336px;
-	width: 100%;
 	position: relative;
 }
-.bar2 li:nth-of-type(5){
+.bar2 li:nth-of-type(3){
 	background-color: #A50A0A;
 }
 .bar2 li:nth-of-type(1){
@@ -259,13 +272,12 @@ section{
 .box1{
 	width: 980px;
 	height: 1700px;
-	left: 50%;
+	
+	margin: 0 auto;
 	position: relative;
-	margin-left: -490px;
-	margin-bottom: 10px;
 	border-left: 1px solid #D3D3D3;
 	border-right: 1px solid #D3D3D3;
-	border-bottom: 1px solid #D3D3D3;
+
 }
 .box1 .list:nth-of-type(1){
 	padding-top: 35px;
