@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-1.11.1.js"></script>
+        <script src="js/jquery.mousewheel.js"></script>
+        <script>
+        	$(function(){   
+        		var num=0;
+                $('.screen1').removeClass('no');
+        		$('ol li').click(function(event) {
+        			var index=$(this).index();
+        			$(this).addClass('cx').siblings().removeClass('cx');
+        			$('section').stop().animate({'top':-100*index+'%'}, 400)
+                    $('section>div').eq(index).removeClass('no').siblings().addClass('no')
+        		});
+        		$(document).mousewheel(function(event,n){	
+        			num-=n;
+        			if(num<0){
+        				num=0
+        			}
+        			if(num>6){
+        				num=6
+        			}
+
+        			$('ol li').eq(num).addClass('cx').siblings().removeClass('cx');
+        			$('section').stop().animate({'top':-100*num+'%'}, 400);
+                      $('section>div').eq(num).removeClass('no').siblings().addClass('no')
+        		})
+                $('.music').click(function(event) {
+                    $('.music').toggleClass('play');
+                    if($('.music').hasClass('play')){
+                          $('audio').get(0).play()
+                    }else{
+                        $('audio').get(0).pause()
+                    }
+                });
+        	})
+        </script>
+
+    </head>
+
+    <body>
+    	<img class="music play" src="imgs/music.png" width="40px" alt="">
+    	<ol>
+    		<li class="cx"></li>
+    		<li></li>
+    		<li></li>
+    		<li></li>
+    		<li></li>
+    		<li></li>
+    		<li></li>
+    	</ol>
+<div class="bar">
+    <ul>
+        <a href="test2.html"><li class="li1">关于我们</li></a>
+        <a href="test6.html"><li class="li2">版本日志</li></a>
+        <a href="test3.html"><li class="li3">积分商城</li></a>
+        <a href=""><li class="li4">应用商店</li></a>
+        <a href=""><li class="li5">论坛反馈</li></a>
+    </ul>
+</div>
+    	<section>
+    		<div class="screen1 no">
+                <img class="head" src="imgs/balloon.png" width="120px" alt="">
+                <img class="scould" src="imgs/scloud.png" width="150px" alt="">
+                <img class="cloud" src="imgs/cloud.png" width="170px" alt="">
+                
+                <div class="logo">
+                    <span><img src="imgs/logo.png" alt="" height="50px"></span>
+                    <span><img src="imgs/title1.png" alt="" height="50px"></span>
+                </div>
+                <p class="des ">就算是再相同的一天，换一扇窗看出去，都是一个不同的<br>
+        世界，从现在起，打开应用中心，发现更大世界。</p>      
+            </div>
+            <div class="screen2 no">
+            <img src="imgs/compass.png" width="120px" alt="" class="head">
+            <img src="imgs/compass-pointer.png" width="90px" alt="" class="head special">
+             <div class="logo">
+                    <span><img src="imgs/logo.png" alt="" height="50px"></span>
+                    <span><img src="imgs/title1.png" alt="" height="50px"></span>
+                </div>
+          <p class="des ">就算是再相同的一天，换一扇窗看出去，都是一个不同的<br>
+        世界，从现在起，打开应用中心，发现更大世界。</p>        
+            </div>
+<div class="screen3 no">
+            <img src="imgs/conch.png" width="120px" alt=""  class="head">
+            <h6 class="pao">
+                <img src="imgs/pao01.png" alt="">
+                <img src="imgs/pao02.png" alt="">
+                <img src="imgs/pao03.png" alt="">
+                <img src="imgs/pao04.png" alt="">
+                <img src="imgs/pao01.png" alt="">
+               <img src="imgs/pao06.png" alt="">
+               <img src="imgs/pao07.png" alt="">
+               <img src="imgs/pao08.png" alt="">
+               <img src="imgs/pao09.png" alt="">
+                <img src="imgs/pao05.png" alt="">
+                <img src="imgs/pao01.png" alt="">
+
+            </h6>
+            <div class="logo">
+                    <span><img src="imgs/logo.png" alt="" height="50px"></span>
+                    <span><img src="imgs/title1.png" alt="" height="50px"></span>
+                </div> 
+          <p class="des ">就算是再相同的一天，换一扇窗看出去，都是一个不同的<br>
+        世界，从现在起，打开应用中心，发现更大世界。</p>        
+            </div>
+            <div class="screen4 no">
+                <img src="imgs/ballon04.png" width="150px" class="head" alt="">
+<div class="logo">
+                    <span><img src="imgs/logo.png" alt="" height="50px"></span>
+                    <span><img src="imgs/title1.png" alt="" height="50px"></span>
+                </div>                
+          <p class="des ">就算是再相同的一天，换一扇窗看出去，都是一个不同的<br>
+        世界，从现在起，打开应用中心，发现更大世界。</p>        
+            </div>
+            <div class="screen5 no">
+                <img src="imgs/pic02.png" width="120px" class="head" alt="">
+<div class="logo">
+                    <span><img src="imgs/logo.png" alt="" height="50px"></span>
+                    <span><img src="imgs/title1.png" alt="" height="50px"></span>
+                </div>                
+          <p class="des ">就算是再相同的一天，换一扇窗看出去，都是一个不同的<br>
+        世界，从现在起，打开应用中心，发现更大世界。</p>        
+            </div>
+            <div class="screen6 no">
+                 <img class="head" src="imgs/aircraft.png" width="120px" alt="">
+               <div class="logo">
+                    <span><img src="imgs/logo.png" alt="" height="50px"></span>
+                    <span><img src="imgs/title1.png" alt="" height="50px"></span>
+                </div>                
+          <p class="des ">就算是再相同的一天，换一扇窗看出去，都是一个不同的<br>
+        世界，从现在起，打开应用中心，发现更大世界。</p>        
+            </div>
+            <div class="screen7 no">
+                 <img class="head" src="imgs/black-hole.png" width="160px" alt="" style=" animation: move 4s linear infinite;">
+                 <img class="head" src="imgs/black-hole-light.png" width="160px" alt="" style=" animation: move 4s linear infinite;">
+                <div class="logo">
+                    <span><img src="imgs/logo.png" alt="" height="50px"></span>
+                    <span><img src="imgs/title1.png" alt="" height="50px"></span>
+                </div>                
+          <p class="des ">就算是再相同的一天，换一扇窗看出去，都是一个不同的<br>
+        世界，从现在起，打开应用中心，发现更大世界。</p>        
+            </div>
+        </section>
+<div class="down">
+            <img src="imgs/down.png" alt="">
+            <ul>
+                <li>版本：1.0 Beta3</li>
+                <li>大小：5.7M</li>
+                <li>更新：2016-11-09</li>
+            </ul>
+        </div>        
+    </body>
+</html>

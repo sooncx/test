@@ -1,0 +1,252 @@
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #425766
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	margin-bottom: 10px;
+	background: #fff;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5)
+}
+
+header span {
+	position: relative;
+	display: block;
+	top: 17px;
+	width: 242px;
+	height: 33px;
+	background: url(../imgs/sprite.png) no-repeat -28px 0px;
+}
+header h1{
+	margin-left: 300px;
+}
+
+header ul{
+	margin-left: 550px;
+	margin-top: -30px;
+
+}
+header ul {
+	float: left;
+	padding-left: 40px;
+}
+header ul li {
+	float: left;
+	width: 120px;
+	text-align: center;
+	height: 68px;
+	line-height: 68px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.current {
+	border-bottom: 2px solid #ff4500;
+}
+.current a {
+	color: #ff4500;
+}
+.box1{
+	width: 170px;
+	height: 230px;
+	margin-left: 300px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5)
+}
+.box1 .box1-box{
+	width: 120px;
+	height: 40px;
+	background-color: #FC711B;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	cursor: pointer;
+}
+.box1-box .p1{
+	text-align: center;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.box1-box  dt{
+	font-size: 10px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 40px;
+}
+.box1-box  span{
+	color: red;
+}
+.box2{
+	 width: 700px;
+     height: 230px;
+     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+     position: relative;
+     top: -230px;
+     left: 500px;
+}
+.swiper-container img{
+	
+    height: 230px;
+    width: 700px;
+}
+.box3{
+     width: 900px;
+     height: 350px;
+     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+     margin-top: -200px;
+     margin-left: 300px;	
+}
+.box4{
+     width: 900px;
+     height: 350px;
+     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+     margin-top: 30px;
+     margin-left: 300px;	
+}
+
+.list_score {
+	background: #fff;
+	height: 320px;
+	margin-bottom: 20px;
+}
+.list_score .top {
+	height: 36px;
+	padding: 30px 33px 0;
+}
+.list_score .icon {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin: 4px 10px 0 0;
+	background: url(../imgs/sprite1.png) no-repeat -254px -2117px;
+}
+.recent .icon {
+	background: url(../imgs/sprite1.png) no-repeat -255px -2182px;
+}
+.list_score p {
+	float: left;
+	margin: 4px 10px 0 0;
+	font-size: 16px;
+	line-height: 12px;
+	color: #425766;
+}
+.score {
+	float: left;
+	position: relative;
+	height: 22px;
+	padding: 0 10px;
+}
+.score img:nth-of-type(1) {
+	position: absolute;
+	bottom: -14px;
+	height: 20px;
+}
+.score img:nth-of-type(2) {
+	position: relative;
+}
+.score img:nth-of-type(3) {
+	position: relative;
+}
+.list_score ul.circle {
+	position: relative;
+	height: 230px;
+	width: 802px;
+	margin: 0px auto
+}
+.list_score .circle li {
+	position: relative;
+	float: left;
+	margin-right: 90px;
+	width: 200px;
+	height: 200px;
+	background: url(../imgs/circle.png) no-repeat
+}
+.list_score li:nth-of-type(3) {
+	margin-right: 0px;
+}
+.list_score .num {
+	position: absolute;
+	width: 200px;
+	font-size: 20px;
+	top: 80px;
+	text-align: center;
+}
+.list_score .num strong {
+	font-size: 40px;
+}
+.list_score .speed {
+	position: absolute;
+	bottom: 20px;
+	width: 200px;
+	text-align: center;
+	font-size: 12px;
+	color: #8596a2;
+}
+.list_score  li span {
+	position: absolute;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 20px;
+	height: 20px;
+	background: url(../imgs/sprite1.png) no-repeat -250px -2136px;
+}
+.online li {
+	float: left;
+	color: #425766;
+	padding: 0 30px;
+	font-size: 14px;
+	height: 30px;
+	cursor: pointer
+}
+.recent ol:nth-of-type(2){display:none;}
+.recent ol:nth-of-type(3){display:none;}
+.online .current {
+	border-bottom: 2px solid #88b7ee;
+	color: #88b7ee;
+	font-weight: bold;
+}
+.chart {
+	width: 650px;
+	height: 140px;
+	padding: 0 25px;
+	margin: auto;
+	border-bottom: 1px solid #e5e8ec;
+}
+.chart li {
+	float: left;
+	position: relative;
+	width: 65px;
+	height: 140px;
+}
+.chart .date {
+	position: absolute;
+	left: 0;
+	bottom: -25px;
+	width: 100%;
+	line-height: 1em;
+	font-size: 12px;
+	text-align: center;
+	color: #8596a2;
+}
+.line {
+	position: absolute;
+	left: 30px;
+	bottom: -1px;
+	width: 4px;
+	height: 2%;
+	border-radius: 2px 2px 0 0;
+	background: #7bafec;
+	transition: 0.6s;
+}
