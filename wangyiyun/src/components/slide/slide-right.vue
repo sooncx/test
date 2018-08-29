@@ -35,7 +35,7 @@
           <li>在线听歌免流量</li>
         </ol>
       </div> -->
-      <div @click="ch('tab-container1')">
+<!--       <div @click="ch('tab-container1')">
         button1
       </div>
       <div @click="ch('tab-container2')">
@@ -43,18 +43,39 @@
       </div>
       <div @click="ch('tab-container3')">
         button3
-      </div>
+      </div> -->
+      <mt-navbar v-model="active"><!-- 点击对应选项卡获取对应选项id赋值给active，然后根据active的值获取对应id的内容 -->
+  <mt-tab-item id="tab-container1">选项一</mt-tab-item>
+  <mt-tab-item id="tab-container2">选项二</mt-tab-item>
+  <mt-tab-item id="tab-container3">选项三</mt-tab-item>
+</mt-navbar>
 <mt-tab-container v-model="active">
   <mt-tab-container-item id="tab-container1">
-    <mt-cell v-for="n in 10" :key="n" title="tab-container 1"></mt-cell>
+    <mt-cell v-for="n in 10" :key="n" title="tab-container 1">{{active}}</mt-cell>
   </mt-tab-container-item>
   <mt-tab-container-item id="tab-container2">
-    <mt-cell v-for="n in 5" :key="n" title="tab-container 2"></mt-cell>
+    <mt-cell v-for="n in 5" :key="n" title="tab-container 2">{{active}}</mt-cell>
   </mt-tab-container-item>
-  <mt-tab-container-item id="tab-container3">
-    <mt-cell v-for="n in 7" :key="n" title="tab-container 3"></mt-cell>
+ <mt-tab-container-item id="tab-container3">
+    <mt-cell v-for="n in 5" :key="n" title="tab-container 3">{{active}}</mt-cell>
   </mt-tab-container-item>
 </mt-tab-container>
+
+
+<!-- <mt-navbar v-model="selected" >
+  <mt-tab-item id="1">选项一</mt-tab-item>
+  <mt-tab-item id="2">选项二</mt-tab-item>
+</mt-navbar>
+<mt-tab-container v-model="selected">
+  <mt-tab-container-item id="1">
+    sadasdasd
+  </mt-tab-container-item>
+  <mt-tab-container-item id="2">
+    213123131
+  </mt-tab-container-item>
+</mt-tab-container> -->
+
+
     </div>
   </main>
 </template>
@@ -65,7 +86,8 @@ export default {
   data () {
     return {
       msg:[''],
-      active:['']
+      active:[''],
+      selected:[''],
     }
   },
   methods:{

@@ -17,6 +17,7 @@ import ACG from '@/components/MV/ACG'
 import yanzou from '@/components/MV/yanzou'
 import slide_left from '@/components/slide/slide-left'
 import slide_right from '@/components/slide/slide-right'
+import option from '@/components/options/option'
 Vue.use(Router)
 
 export default new Router({
@@ -30,6 +31,11 @@ export default new Router({
       path: '/music',
       name: 'music',
       component: music
+    },
+    {
+      path: '/option',
+      name: 'option',
+      component: option
     },
     {
       path: '/wangyi',
@@ -47,15 +53,15 @@ export default new Router({
       name: 'mv',
       component: mv,
        children:[
-        {path:'/tuijian',component:tuijian},
-        {path:'/xianchang',component:xianchang},
-        {path:'/fanchang',component:fanchang},
+         {path:'/tuijian',component:tuijian},
+         {path:'/xianchang',component:xianchang},
+         {path:'/fanchang',component:fanchang},
          {path:'/BGM',component:BGM},
-        {path:'/MV2',component:MV2},
-        {path:'/wudao',component:wudao},
+         {path:'/MV2',component:MV2},
+         {path:'/wudao',component:wudao},
          {path:'/ACG',component:ACG},
-        {path:'/yanzou',component:yanzou},
-        {path:'/',redirect:'/tuijian'}
+         {path:'/yanzou',component:yanzou},
+         {path:'/',redirect:'/tuijian'}
       ]
     },
     {

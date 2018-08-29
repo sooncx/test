@@ -30,7 +30,9 @@
       <div class="footer">
         <ul>
           <li>夜间模式</li>
-          <li>设置</li>
+          <li><router-link to=/option>
+          <p>设置</p>
+         </router-link></li>
           <li>退出</li>
         </ul>
       </div>
@@ -65,6 +67,8 @@ export default {
   padding: 0;
   list-style: none;
   transition: all 2s;
+  color: #524E4E;
+  text-decoration: none;
 }
 .slide2{
   background-color: rgba(0, 0, 0, 0.5);
