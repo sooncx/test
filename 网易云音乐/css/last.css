@@ -1,7 +1,7 @@
 .lastitem {}
 .musicbar {
     background: url(../images/playbar.png) repeat-x 0px 0px;
-    width: 1451px;
+    width: 100%;
     height: 53px;
     right: 68px;
     position: fixed;
