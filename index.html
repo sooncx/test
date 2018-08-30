@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+		ul{
+			overflow: hidden;
+			height: 30px;
+			
+			background-color: #8FD8C8;
+			padding-left: 300px;
+		}
+		ul li{
+			float: left;
+			height: 30px;
+			width: 70px;
+			text-align: center;
+			line-height: 30px;
+			color: white;
+    		background-color: #9AB961;
+    		border-radius: 1px;
+    		box-shadow: 1px 1px 5px #363630;
+		}
+		 .cx{
+			background-color:#96BD22;
+    		color: #D1C6C6;
+    		box-shadow: 3px 3px 10px #363630;
+    		height: 33px;
+		}
+		section{
+			padding-top: -1px;
+		}
+		section div{
+			width: 300px;
+			height: 200px;
+			margin-left: 300px;
+			border-left: 1px solid #464646;
+			border-right: 1px solid #464646;
+			border-bottom: 1px solid #464646;
+			display: none;
+		}
+		.current{
+			display: block;
+			
+		}
+
+	</style>
+</head>
+<body>
+	<ul>
+		<li class="cx">aaaa</li>
+		<li>sss</li>
+		<li>dasd</li>
+		<li>fsfs</li>
+	</ul>
+	<section>
+		<div class="current">1111</div>
+		<div>2222</div>
+		<div>3333</div>
+		<div>4444</div>
+	</section>
+</body>
+</html>
+<script>
+	var lis=document.getElementsByTagName('li');
+	var divs=document.getElementsByTagName('div');
+
+	for(var i=0;i<lis.length;i++){
+		lis[i].setAttribute('index', i);
+
+		lis[i].onclick=function(){
+			//获取索引值
+			//alert(this.getAttribute('index'));
+			for(var j=0;j<lis.length;j++){
+				lis[j].removeAttribute('class');
+				divs[j].removeAttribute('class');
+			}
+			this.setAttribute('class', 'cx');
+			divs[this.getAttribute('index')].setAttribute('class','current' );
+		}
+	}
+</script>
