@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none !important;
+    color: black;
+}
+.container {
+    position: relative;
+    width: 83%;
+}
+.logo {
+    width: 290px;
+    height: 180px;
+    background-color: #CC0000;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.logo:hover {
+    background-color: #FA7A20;
+}
+.logo a {
+    margin: 0 0;
+    position: relative;
+    top: -25px;
+    left: 20px;
+    color: white;
+}
+.logo h1, .logo h3, .logo p {
+    margin: 0px 0px;
+    padding: 7px 0px;
+    font-family: Georgia,Serif;
+}
+.logo h1 {
+    font-size: 45px;
+}
+.logo h3 {
+    font-size: 30px;
+}
+.logo p {
+    font-size: 12px;
+}
+.navbar {
+    margin-top: -60px;
+    margin-left: 25%;
+    background-color: transparent;
+    border: none;
+}
+.nav a {
+    font-size: 24px;
+    color: black;
+}
+#cx .navbar-nav li a{
+    padding:5px 10px;
+    border-radius: 5px;
+}
+.nav li {
+    margin-left: 45px;
+}
+.box {
+    width: 210px;
+    height: 179px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.box .login {
+    margin-left: 10px;
+    margin-top: 10px;
+    float: right;
+}
+.login2 {
+    display: none;
+    position: relative;
+    top: -10px;
+}
+.login2 ul li {
+    float: left;
+    margin-left: 10px;
+}
+.box .login ul li {
+    float: left;
+    margin-left: 10px;
+}
+.box .search {
+    position: absolute;
+    top: 78px;
+    left: 0px;
+}
+.redline hr {
+    border-bottom: 1px solid #CC0000;
+    margin-top: 40px;
+}
+.listbar {
+    width: 100%;
+    height: 40px;
+}
+.listbar span:nth-of-type(1) {
+    font-size: 25px;
+    margin-left:0px;
+
+}
+.listbar span:nth-of-type(2) {
+    font-size: 25px;
+    margin-left: 750px;
+}
+
+.list>div {
+    float: left;
+}
+.list div img {
+    margin-left: 30px;
+}
+.list div:nth-of-type(1) {
+    margin-left: -25px;
+}
+ .list div img:hover {
+    margin-top: -10px;
+    transition: all 0.4s;
+    box-shadow: 1px 1px 100px #464646;
+} 
+.list div img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media(max-width: 1200px) {
+    .logo {
+        width: 220px !important;
+        height: 160px !important;
+    }
+    .logo h1 {
+        font-size: 35px !important;
+    }
+    .logo h3 {
+        font-size: 25px !important;
+    }
+    .nav li {
+        margin-left: 25px;
+    }
+    .nav a {
+        font-size: 20px !important;
+    }
+    .box {
+        width: 160px !important;
+        height: 150px !important;
+        display: inline-block;
+    }
+    .box img {
+        width: 160px !important;
+        height: 75px !important;
+    }
+    .list div img {
+        margin-left: 10px;
+    }
+    .listbar span:nth-of-type(2) {
+        margin-left: 540px;
+    }
+    .list div{
+        margin-left: 19px;
+    }
+     .list div:nth-of-type(4) img{
+        margin-left: 16px;
+    }
+
+    .img4 {
+        width: 340px;
+    }
+    .img3 {
+        width: 280px;
+    }
+    .img2 {
+        width: 159px;
+    }
+    .img1 {
+        width: 98px;
+    }
+    .container {
+        width: 940px;
+    }
+}
+@media(max-width: 980px) {
+    .logo {
+        width: 170px !important;
+        height: 160px !important;
+    }
+    .logo h1 {
+        font-size: 25px !important;
+    }
+    .logo h3 {
+        font-size: 20px !important;
+    }
+    .navbar {
+        margin-left: 180px;
+    }
+    .nav li {
+        margin-left: 20px;
+    }
+    .nav a {
+        font-size: 15px !important;
+    }
+    .box {
+        width: 125px !important;
+        height: 138px !important;
+    }
+    .box img {
+        width: 125px !important;
+        height: 60px !important;
+    }
+    .list div img {
+        margin-left: 10px;
+    }
+    .listbar span:nth-of-type(2) {
+        margin-left: 380px;
+    }
+    .list div{
+        margin-left: 12px;
+    }
+    .img4 {
+        width: 260px;
+    }
+    .img3 {
+        width: 214px;
+    }
+    .img2 {
+        width: 120px;
+    }
+    .img1 {
+        width: 74px;
+    }
+    .container {
+        width: 710px;
+        text-decoration-color: 
+    }
+}
+
+@media(max-width: 767px) {
+    .logo {
+        text-align: center;
+        width: 100% !important;
+    }
+    .navbar button {
+        float: left;
+        margin-left: 30px;
+        background-color: #CC0000 !important;
+    }
+    .navbar button span {
+        background-color: white !important;
+    }
+    .navbar {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .nav {
+        background-color: #EEEEEE !important;
+        margin-top: -5px;
+        padding-bottom: 15px;
+    }
+    .nav li:nth-of-type(1) {
+        background-color: white !important;
+        margin-right: 20px;
+        margin-left: 20px;
+        border-radius: 2px;
+        margin-top: 20px;
+    }
+    .nav li {
+        background-color: #EEEEEE;
+        border-radius: 2px !important;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 2px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .nav li:hover {
+        background-color: white !important;
+    }
+    .nav a {
+        border-radius: 0px;
+        margin-top: 1px;
+        font-size: 12px !important;
+    }
+    .box {
+        display: none !important;
+    }
+    .login2 {
+        display: inline-block;
+        float: right;
+        margin-top: 25px;
+        margin-right: 10px;
+        z-index: 3;
+    }
+    .listbar span:nth-of-type(2) {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+
+    .list div{
+        margin-left: 9px;
+    }
+      .list div:nth-of-type(2) img{
+        margin-left:15px;
+    }
+      .list div:nth-of-type(3) img{
+        margin-left:22px;
+    }
+      .list div:nth-of-type(4) img{
+        margin-left:30px;
+    }
+    .img4 {
+        width: 37.5%;
+    }
+    .img3 {
+        width: 31.1%;
+    }
+    .img2 {
+        width: 17.75%;
+    }
+    .img1 {
+        width: 10.95%;
+    }
+    .redline hr {
+    margin-top: -20px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1250px;
+    }
+    .logo h1 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .logo h3 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .main-nav ul li {
+        margin-left: 65px;
+    }
+    .logo-footer h1 {
+        font-size: 35px;
+        line-height: 75px;
+    }
+    .list div{
+        margin-left: 15px;
+    }
+     .list div:nth-of-type(4) img{
+        margin-left: 16px;
+    }
+    .list div:nth-of-type(3) img{
+        margin-left: 5px;
+    }
+    .img4 {
+        width: 450px;
+    }
+    .img3 {
+        width: 374px;
+    }
+    .img2 {
+        width: 225px;
+    }
+    .img1 {
+        width: 150px;
+    }
+}
+@media(min-width: 767px) {
+    #cx .navbar-nav li a:hover {
+        background-color: #CC0000;
+        cursor: pointer;
+        color: white ;
+    }
+    .nav li:nth-of-type(1) a{
+        background-color: #CC0000;
+    }
+    .nav li:nth-of-type(1) a {
+        color: white;
+    }
+}
+
+
+
