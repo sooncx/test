@@ -1,0 +1,81 @@
+{
+
+        "cyc": [{
+            "id":1,
+            "src":"http://p1.music.126.net/NilFvP_ZixIR439tvbajlQ==/109951163461641627.jpg"
+        },{
+            "id":2,
+            "src":"http://p1.music.126.net/UW_KX0zC5J4vzndAE8YFFQ==/109951163461649366.jpg"
+        },{
+            "id":3,
+            "src":"http://p1.music.126.net/HvNywyvLgFVNiU1inpsx1g==/109951163462026803.jpg"
+        },{
+            "id":4,
+            "src":"http://p1.music.126.net/whCnDn-qY-ZItDyDyqRgiw==/109951163459885087.jpg"
+        },{
+            "id":5,
+            "src":"http://p1.music.126.net/My-N5FvtsyhKt55zI6-XEA==/109951163461643675.jpg"
+        },{
+            "id":6,
+            "src":"http://p1.music.126.net/TJu1Rwbv-NJ6L6tQk-Sb9Q==/109951163459876072.jpg"
+        },{
+            "id":7,
+            "src":"http://p1.music.126.net/710Be-mQH8b2wqsZsPNfYg==/109951163461641490.jpg"
+        },{
+            "id":8,
+            "src":"http://p1.music.126.net/My-N5FvtsyhKt55zI6-XEA==/109951163461643675.jpg"
+        }],
+        "list": [{
+            "txt":"纯音乐，看书必备",
+            "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+        },{
+            "txt":"经典摇滚，引爆你的血管",
+            "src":"https://p.qpic.cn/music_cover/eO9YLkEHAnz3gntq1uUDL5vbZHuvibBYbUekt4gzUwfjzaoCl6Fe51Q/300?n=1"
+        },{
+            "txt":"那些好听而你有不知道名字的歌",
+            "src":"https://p.qpic.cn/music_cover/5icK7iaMG251xxP4lurhKEcE6v053bX9na1h2l1emdu1qwVl3jI8ia71g/300?n=1"
+        },{
+            "txt":"世界著名钢琴曲",
+            "src":"https://p.qpic.cn/music_cover/uXtIBAxaiaVfmdYhOibK1DgicSumkqub13qOib2licUttzvsCibxzgXXicBHA/300?n=1"
+        },{
+            "txt":"夜深人静的时候，我们慢慢地听歌",
+            "src":"https://p.qpic.cn/music_cover/FBicu030Yo6HCiavRCRg0vJHgwlmQtJd9rmGXTlexuUzpPDH0LAQ4fgA/300?n=1"
+        },{
+            "txt":"中国风古典音乐，让我们坐看云高江湖小",
+            "src":"https://p.qpic.cn/music_cover/xJLWlNicFPzWw3p1m4U86nQ1uMQfNaBJv80NPP4TfSvywjG4ZE8fE6A/300?n=1"
+        }],
+        "conts": [{
+            "title":"什么歌来着",
+            "singer":"那谁谁",
+            "palytimes":"12312",
+            "talks":"2131",
+            "head":"https://y.gtimg.cn/music/photo_new/T001R150x150M0000025NhlN2yWrP4.jpg?max_age=2592000",
+            "src":"https://y.gtimg.cn/music/photo_new/T002R300x300M000000JtfuD2lZnJ3.jpg?max_age=2592000"
+        },{
+            "title":"随便取个名字吧",
+            "singer":"什么某某",
+            "palytimes":"3213",
+            "talks":"23",
+            "head":"https://y.gtimg.cn/music/photo_new/T001R150x150M000002J4UUk29y8BY.jpg?max_age=2592000",
+            "src":"https://y.gtimg.cn/music/photo_new/T002R300x300M000002C9EMj353mGG.jpg?max_age=2592000"
+        },{
+            "title":"就是这个啦",
+            "singer":"nameless",
+            "palytimes":"123",
+            "talks":"453",
+            "head":"https://y.gtimg.cn/music/photo_new/T001R150x150M0000020PeOh4ZaCw1.jpg?max_age=2592000",
+            "src":"https://y.gtimg.cn/music/photo_new/T002R300x300M000002p44U41LH7Os.jpg?max_age=2592000"
+        },{
+            "title":"实在想不到",
+            "singer":"无名",
+            "palytimes":"333",
+            "talks":"2542",
+            "head":"https://y.gtimg.cn/music/photo_new/T001R150x150M000001RRlcX2n2NLs.jpg?max_age=2592000",
+            "src":"https://y.gtimg.cn/music/photo_new/T002R300x300M000002QnGva4E5kM3.jpg?max_age=2592000"
+        }],
+        "playbar": [{
+            "song":"什么歌来着,好像叫音乐鬼裁",
+            "singer":"那谁谁",
+            "src":"https://y.gtimg.cn/music/photo_new/T002R300x300M000000JtfuD2lZnJ3.jpg?max_age=2592000"
+        }]
+}
