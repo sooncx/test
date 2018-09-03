@@ -1,0 +1,163 @@
+{
+    "cityData":[{
+                        "cityTp": "A",
+                        "cityCode": "ALB",
+                        "cityPl": "aerbaniva",
+                        "cityNamw": "阿尼巴尼亚"
+                    },
+                    {
+                        "cityTp": "A",
+                        "cityCode": "AUS",
+                        "cityPl": "aodaliya",
+                        "cityNamw": "澳大利亚"
+                    },
+                    {
+                        "cityTp": "B",
+                        "cityCode": "BHS",
+                        "cityPl": "bahama",
+                        "cityNamw": "巴哈马"
+                    },
+                    {
+                        "cityTp": "C",
+                        "cityCode": "PRK",
+                        "cityPl": "chaoxian",
+                        "cityNamw": "朝鲜"
+                    },
+                    {
+                        "cityTp": "D",
+                        "cityCode": "DRK",
+                        "cityPl": "Dhaoxian",
+                        "cityNamw": "d鲜"
+                    },
+                    {
+                        "cityTp": "E",
+                        "cityCode": "ERK",
+                        "cityPl": "Echaoxian",
+                        "cityNamw": "E朝鲜"
+                    },
+                    {
+                        "cityTp": "F",
+                        "cityCode": "FPRK",
+                        "cityPl": "Fchaoxian",
+                        "cityNamw": "F朝鲜"
+                    },
+                    {
+                        "cityTp": "G",
+                        "cityCode": "GPRK",
+                        "cityPl": "Gchaoxian",
+                        "cityNamw": "G朝鲜"
+                    },
+                    {
+                        "cityTp": "H",
+                        "cityCode": "HPRK",
+                        "cityPl": "HcHhaoxian",
+                        "cityNamw": "H朝鲜"
+                    },
+                    {
+                        "cityTp": "I",
+                        "cityCode": "IPRK",
+                        "cityPl": "Ichaoxian",
+                        "cityNamw": "I朝鲜"
+                    },
+                    {
+                        "cityTp": "J",
+                        "cityCode": "JPRK",
+                        "cityPl": "Jchaoxian",
+                        "cityNamw": "J朝鲜"
+                    },
+                    {
+                        "cityTp": "K",
+                        "cityCode": "KPRK",
+                        "cityPl": "Kchaoxian",
+                        "cityNamw": "K朝鲜"
+                    },
+                    {
+                        "cityTp": "L",
+                        "cityCode": "LPRK",
+                        "cityPl": "Lchaoxian",
+                        "cityNamw": "L朝鲜"
+                    },{
+                        "cityTp": "M",
+                        "cityCode": "MPRK",
+                        "cityPl": "Mchaoxian",
+                        "cityNamw": "M朝鲜"
+                    },{
+                        "cityTp": "N",
+                        "cityCode": "NPRK",
+                        "cityPl": "Nchaoxian",
+                        "cityNamw": "N朝鲜"
+                    },{
+                        "cityTp": "O",
+                        "cityCode": "PRK",
+                        "cityPl": "chaoxian",
+                        "cityNamw": "朝鲜"
+                    },{
+                        "cityTp": "P",
+                        "cityCode": "PRK",
+                        "cityPl": "Pchaoxian",
+                        "cityNamw": "P朝鲜"
+                    },{
+                        "cityTp": "Q",
+                        "cityCode": "QPRK",
+                        "cityPl": "QPchaoxian",
+                        "cityNamw": "QP朝鲜"
+                    },{
+                        "cityTp": "R",
+                        "cityCode": "RPRK",
+                        "cityPl": "RPchaoxian",
+                        "cityNamw": "RP朝鲜"
+                    },{
+                        "cityTp": "S",
+                        "cityCode": "SPRK",
+                        "cityPl": "SPchaoxian",
+                        "cityNamw": "SP朝鲜"
+                    },{
+                        "cityTp": "T",
+                        "cityCode": "TPRK",
+                        "cityPl": "TPchaoxian",
+                        "cityNamw": "TP朝鲜"
+                    },{
+                        "cityTp": "U",
+                        "cityCode": "UPRK",
+                        "cityPl": "UPchaoxian",
+                        "cityNamw": "UP朝鲜"
+                    },{
+                        "cityTp": "V",
+                        "cityCode": "VPRK",
+                        "cityPl": "VPchaoxian",
+                        "cityNamw": "VP朝鲜"
+                    },{
+                        "cityTp": "W",
+                        "cityCode": "WPRK",
+                        "cityPl": "WPchaoxian",
+                        "cityNamw": "WP朝鲜"
+                    },{
+                        "cityTp": "X",
+                        "cityCode": "XPRK",
+                        "cityPl": "XPchaoxian",
+                        "cityNamw": "XP朝鲜"
+                    },{
+                        "cityTp": "Y",
+                        "cityCode": "YPRK",
+                        "cityPl": "YPchaoxian",
+                        "cityNamw": "YP朝鲜"
+                    },{
+                        "cityTp": "Z",
+                        "cityCode": "ZPRK",
+                        "cityPl": "ZPchaoxian",
+                        "cityNamw": "ZP朝鲜"
+                    }]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

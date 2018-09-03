@@ -77,5 +77,69 @@
             "song":"什么歌来着,好像叫音乐鬼裁",
             "singer":"那谁谁",
             "src":"https://y.gtimg.cn/music/photo_new/T002R300x300M000000JtfuD2lZnJ3.jpg?max_age=2592000"
+        }],
+        "songlist": [{
+            "songs":"笑傲江湖",
+            "singer":"张三"
+        },{
+            "songs":"陌上桑",
+            "singer":"李四"
+        },{
+            "songs":"多请岸",
+            "singer":"曹植"
+        },{
+            "songs":"无耻之人",
+            "singer":"诸葛亮"
+        },{
+            "songs":"浙江潮",
+            "singer":"骆宾王"
+        },{
+            "songs":"龙宫锁寂寥",
+            "singer":"宋之问"
+        },{
+            "songs":"谁偷我茅草",
+            "singer":"杜甫"
+        },{
+            "songs":"一剑刺死你",
+            "singer":"李白"
+        },{
+            "songs":"风吹麦浪里个浪",
+            "singer":"李健"
+        },{
+            "songs":"那首歌",
+            "singer":"那个谁"
+        },{
+            "songs":"黄金甲",
+            "singer":"周杰伦"
+        },{
+            "songs":"死于阵前",
+            "singer":"王朗"
+        },{
+            "songs":"纵横四野",
+            "singer":"鬼谷子"
+        },{
+            "songs":"千杯不醉",
+            "singer":"桑桑"
+        },{
+            "songs":"如是乎",
+            "singer":"柳如是"
+        },{
+            "songs":"白了头",
+            "singer":"青丝"
+        },{
+            "songs":"叹金莲",
+            "singer":"阿朵"
+        },{
+            "songs":"好烦",
+            "singer":"好累"
+        },{
+            "songs":"还有谁",
+            "singer":"不知道"
+        },{
+            "songs":"北大而已",
+            "singer":"撒大大撒贝宁"
+        },{
+            "songs":"不能说的秘密",
+            "singer":"周杰伦"
         }]
 }
