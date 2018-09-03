@@ -88,7 +88,7 @@
 	 	background: rgb(255,255,255);
 	 	padding: 0 8px;
 	 	box-sizing: border-box;
-	 	z-index:10;
+	 	z-index:100;
 	 }
 	 main .protrait{
 	 	display: inline-block;
