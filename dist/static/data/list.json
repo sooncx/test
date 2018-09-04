@@ -1,151 +1,239 @@
 {
-    "cityData":[{
+    "cityData":[   
+                    {
                         "cityTp": "A",
-                        "cityCode": "ALB",
-                        "cityPl": "aerbaniva",
-                        "cityNamw": "阿尼巴尼亚"
+                        "cityNamw": "Alice",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "A",
-                        "cityCode": "AUS",
-                        "cityPl": "aodaliya",
-                        "cityNamw": "澳大利亚"
+                        "cityNamw": "奥多姆",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
+                        "cityTp": "A",
+                        "cityNamw": "昂扬",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "B",
-                        "cityCode": "BHS",
-                        "cityPl": "bahama",
-                        "cityNamw": "巴哈马"
+                        "cityNamw": "白百合",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "B",
+                        "cityNamw": "彬斌",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "C",
-                        "cityCode": "PRK",
-                        "cityPl": "chaoxian",
-                        "cityNamw": "朝鲜"
+                        "cityNamw": "陈坤",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "D",
-                        "cityCode": "DRK",
-                        "cityPl": "Dhaoxian",
-                        "cityNamw": "d鲜"
+                        "cityNamw": "大丫",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
+                        "cityTp": "D",
+                        "cityNamw": "杜纯",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
+                        "cityTp": "D",
+                        "cityNamw": "段誉",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
+                        "cityTp": "D",
+                        "cityNamw": "典故",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "E",
-                        "cityCode": "ERK",
-                        "cityPl": "Echaoxian",
-                        "cityNamw": "E朝鲜"
+                        "cityNamw": "厄拉",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "E",
+                        "cityNamw": "Era",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "F",
-                        "cityCode": "FPRK",
-                        "cityPl": "Fchaoxian",
-                        "cityNamw": "F朝鲜"
+                        "cityNamw": "芳文山",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "F",
+                        "cityNamw": "范玮琪",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "F",
+                        "cityNamw": "福原爱",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "G",
-                        "cityCode": "GPRK",
-                        "cityPl": "Gchaoxian",
-                        "cityNamw": "G朝鲜"
+                        "cityNamw": "高俅",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "H",
-                        "cityCode": "HPRK",
-                        "cityPl": "HcHhaoxian",
-                        "cityNamw": "H朝鲜"
+                        "cityNamw": "何宇",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "H",
+                        "cityNamw": "恒宇",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "I",
-                        "cityCode": "IPRK",
-                        "cityPl": "Ichaoxian",
-                        "cityNamw": "I朝鲜"
+                        "cityNamw": "Irice",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "J",
-                        "cityCode": "JPRK",
-                        "cityPl": "Jchaoxian",
-                        "cityNamw": "J朝鲜"
+                        "cityNamw": "Jack",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "J",
+                        "cityNamw": "贾伦",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "J",
+                        "cityNamw": "甲佳佳",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "K",
-                        "cityCode": "KPRK",
-                        "cityPl": "Kchaoxian",
-                        "cityNamw": "K朝鲜"
+                        "cityNamw": "凯奇",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     },
                     {
                         "cityTp": "L",
-                        "cityCode": "LPRK",
-                        "cityPl": "Lchaoxian",
-                        "cityNamw": "L朝鲜"
-                    },{
+                        "cityNamw": "李白",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "M",
-                        "cityCode": "MPRK",
-                        "cityPl": "Mchaoxian",
-                        "cityNamw": "M朝鲜"
-                    },{
+                        "cityNamw": "麦基",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "M",
+                        "cityNamw": "miky",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "M",
+                        "cityNamw": "马思纯",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "N",
-                        "cityCode": "NPRK",
-                        "cityPl": "Nchaoxian",
-                        "cityNamw": "N朝鲜"
-                    },{
+                        "cityNamw": "南宫",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "O",
-                        "cityCode": "PRK",
-                        "cityPl": "chaoxian",
-                        "cityNamw": "朝鲜"
-                    },{
+                        "cityNamw": "哦哦哦",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "P",
-                        "cityCode": "PRK",
-                        "cityPl": "Pchaoxian",
-                        "cityNamw": "P朝鲜"
-                    },{
+                        "cityNamw": "平儒",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "Q",
-                        "cityCode": "QPRK",
-                        "cityPl": "QPchaoxian",
-                        "cityNamw": "QP朝鲜"
-                    },{
+                        "cityNamw": "权利的诱惑",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "Q",
+                        "cityNamw": "权倾朝野",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "Q",
+                        "cityNamw": "全能全知",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "R",
-                        "cityCode": "RPRK",
-                        "cityPl": "RPchaoxian",
-                        "cityNamw": "RP朝鲜"
-                    },{
+                        "cityNamw": "饶舌不",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "S",
-                        "cityCode": "SPRK",
-                        "cityPl": "SPchaoxian",
-                        "cityNamw": "SP朝鲜"
-                    },{
+                        "cityNamw": "思思",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "S",
+                        "cityNamw": "思前想后",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "S",
+                        "cityNamw": "扫荡一空",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "T",
-                        "cityCode": "TPRK",
-                        "cityPl": "TPchaoxian",
-                        "cityNamw": "TP朝鲜"
-                    },{
+                        "cityNamw": "套路得人心",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "U",
-                        "cityCode": "UPRK",
-                        "cityPl": "UPchaoxian",
-                        "cityNamw": "UP朝鲜"
-                    },{
+                        "cityNamw": "ufo",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "V",
-                        "cityCode": "VPRK",
-                        "cityPl": "VPchaoxian",
-                        "cityNamw": "VP朝鲜"
-                    },{
+                        "cityNamw": "view",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "W",
-                        "cityCode": "WPRK",
-                        "cityPl": "WPchaoxian",
-                        "cityNamw": "WP朝鲜"
-                    },{
+                        "cityNamw": "王麻子",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                      {
+                        "cityTp": "W",
+                        "cityNamw": "婉玉",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "X",
-                        "cityCode": "XPRK",
-                        "cityPl": "XPchaoxian",
-                        "cityNamw": "XP朝鲜"
-                    },{
+                        "cityNamw": "小心驶得万年船",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "X",
+                        "cityNamw": "笑傲江湖",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                     {
+                        "cityTp": "X",
+                        "cityNamw": "鲜为人知",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "Y",
-                        "cityCode": "YPRK",
-                        "cityPl": "YPchaoxian",
-                        "cityNamw": "YP朝鲜"
-                    },{
+                        "cityNamw": "一刀两断",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
+                    },
+                    {
                         "cityTp": "Z",
-                        "cityCode": "ZPRK",
-                        "cityPl": "ZPchaoxian",
-                        "cityNamw": "ZP朝鲜"
+                        "cityNamw": "至此告一段落",
+                        "src":"https://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE88ExkFHyeT3dkrL2TKOjLmxdo4UbibLNOg/300?n=1"
                     }]
 }
 
